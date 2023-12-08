@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34221.43
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CJTechShow.Server", "CJTechShow\Server\CJTechShow.Server.csproj", "{A6197E94-C216-4D49-A207-7ED1E28CCBC3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CJTechShow.Server", "CJTechShow\Server\CJTechShow.Server.csproj", "{A6197E94-C216-4D49-A207-7ED1E28CCBC3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CJTechShow.Client", "CJTechShow\Client\CJTechShow.Client.csproj", "{D30F462D-5565-48C6-960C-DBBB0D597D28}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CJTechShow.Client", "CJTechShow\Client\CJTechShow.Client.csproj", "{D30F462D-5565-48C6-960C-DBBB0D597D28}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CJTechShow.Shared", "CJTechShow\Shared\CJTechShow.Shared.csproj", "{FFDABE5A-BEFB-4861-834F-1F52DC626E89}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CJTechShow.Shared", "CJTechShow\Shared\CJTechShow.Shared.csproj", "{FFDABE5A-BEFB-4861-834F-1F52DC626E89}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
