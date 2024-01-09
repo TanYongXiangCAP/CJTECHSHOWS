@@ -3,7 +3,6 @@
 <PageTitle>Index</PageTitle>
 
 <style>
-    /* Define a unique and bold font for the passes information */
     .pass-info {
         font-family: 'YourUniqueFont', sans-serif;
         font-weight: bold;
@@ -15,26 +14,51 @@
         font-weight: bold;
         font-size: 16px;
         padding: 10px 20px;
-        background-color: #4CAF50;
-        color: darkred;
+        background-color: #ff0000;
+        color: #fff;
         border: none;
         border-radius: 5px;
         cursor: pointer;
     }
 
-        /* Add hover effect for the button */
         .buy-tickets-button:hover {
-            background-color: #45a049;
+            background-color: #cc0000;
         }
+
+    .ebrochure-link {
+        font-family: 'YourUniqueFont', sans-serif;
+        font-weight: bold;
+        font-size: 16px;
+        color: #3366cc;
+        text-decoration: underline;
+        cursor: pointer;
+    }
+
+    /* Add spacing between CJ TECH SHOW description and Visitor Passes */
+    .description-section {
+        margin-bottom: 20px;
+    }
+
+    h2 {
+        font-weight: bold;
+        text-decoration: underline;
+    }
+
+    h1 {
+        font-weight: bold;
+    }
+
 </style>
 
 <h1>CJ TECH SHOW</h1>
 
-The TECH Show 2023 is back! With more than 150 brands ranging from tech gadgets, smart-home must-haves & lifestyle products,
-get ready to unlock unbelievable 11.11 deals offline where you can touch, feel & get expert advice live in person.yes
+<div class="description-section">
+    The TECH Show 2024 is back! With more than 150 brands ranging from tech gadgets, smart-home must-haves & lifestyle products,
+    get ready to unlock unbelievable 11.11 deals offline where you can touch, feel & get expert advice live in person.
+<a class="ebrochure-link" href="/Desktop/E-Brochure.pdf">Download your E-Brochure Now!</a>
+</div>
 
-<Ebrochure Title="Download your E-Brochure Now!" />
-
+<br>
 <h2 class="pass-info">Visitor Passes</h2>
 <p class="pass-info">
     Visitor passes cost $100 and include:
@@ -57,8 +81,5 @@ get ready to unlock unbelievable 11.11 deals offline where you can touch, feel &
     <li>FREE Tech Bag</li>
 </ul>
 
-<!-- "Buy Tickets" button -->
-
-<button onclick="window.location.href = 'https://localhost:7084/BuyVendorTicket';">Buy Vendor Passes</button>
-<button onclick="window.location.href = 'https://localhost:7084/BuyTicket';">Buy Visitor Passes</button>
-
+<button class="buy-tickets-button" onclick="window.location.href = 'https://localhost:44305/BuyVendorTicket';">Buy Vendor Passes</button>
+<button class="buy-tickets-button" onclick="window.location.href = 'https://localhost:44305/BuyTicket';">Buy Visitor Passes</button>
