@@ -36,6 +36,20 @@
         a:hover {
             text-decoration: underline;
         }
+
+    button {
+        background-color: #007bff; /* Set the background color to blue (#007bff) */
+        color: #fff; /* Set the text color to white */
+        padding: 10px 20px;
+        font-size: 16px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+        button:hover {
+            background-color: #0056b3; /* Change the background color on hover */
+        }
 </style>
 
 <h3>Purchase Overview</h3>
@@ -44,7 +58,7 @@
     <p>Thank you for your purchase! Your order details are as follows:</p>
 
     <!-- Include purchase details dynamically or add static information -->
- 
+
     <p>Order ID: ABC123</p>
     <p>Items Purchased:</p>
     <ul>
@@ -54,5 +68,5 @@
     <p>Total Amount: $180</p>
 
     <p>Details will be emailed to you shortly.</p>
+    <button onclick="window.location.href = 'https://localhost:44305/eventinformation';">Back To Event Information</button>
 </div>
-
