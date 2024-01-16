@@ -13,6 +13,5 @@ namespace CJTechShow.Server.Data
             IOptions<OperationalStoreOptions> operationalStoreOptions) : base(options, operationalStoreOptions)
         {
         }
-        public DbSet<EventID>
     }
 }
