@@ -1,14 +1,15 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System;
+using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-using System;
-
 namespace CJTechShow.Shared.Domain
 {
-    public class Organizer
+    public class Organizers
     {
         public int OrganizerID { get; set; }
 

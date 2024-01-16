@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace CJTechShow.Shared.Domain
 {
-    public class Visitor
+    public class Visitors
     {
 
         public int VisitorID { get; set; }
