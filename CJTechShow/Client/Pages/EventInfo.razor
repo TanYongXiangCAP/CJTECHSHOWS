@@ -1,4 +1,4 @@
-﻿@page "/eventinformation/"
+﻿@page "/event information/"
 @inject HttpClient _client
 @inject IJSRuntime js
 @attribute [Authorize]
@@ -64,6 +64,7 @@
     Stay updated on the latest event news and announcements by following us on social media:
 </p>
 <button class="btn btn-primary" onclick="redirectToTwitter()">Twitter</button>
+<button class="btn btn-primary" onclick="redirectToInstagram()">Instagram</button>
 <button class="btn btn-primary" onclick="redirectToTikTok()">TikTok</button>
 <button class="btn btn-primary" onclick="redirectToInstagram()">Instagram</button>
 
@@ -72,16 +73,10 @@
         window.location.href = 'https://twitter.com/CJTechShow';
     }
 
-    function redirectToTikTok() {
-        window.location.href = 'https://www.tiktok.com/cjtechshow?lang=en';
-    }
-
     function redirectToInstagram() {
         window.location.href = 'https://www.instagram.com/cjtechshow/';
     }
 </script>
-
-
 <br />
 
 <p>

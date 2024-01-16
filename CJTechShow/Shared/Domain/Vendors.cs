@@ -6,11 +6,9 @@ using System.Threading.Tasks;
 
 namespace CJTechShow.Shared.Domain
 {
-    public class Vendors
+    public class Vendors : BaseDomainModel
     {
-     
-        public int VendorsID { get; set; }
-
+        public int VendorID { get; set; }
         public string? VendorName { get; set; }
         public string? VendorContactDetails { get; set; }
         public int BoothNumber { get; set; }
@@ -18,10 +16,9 @@ namespace CJTechShow.Shared.Domain
         public string? Products { get; set; }
         public string? SocialMedia { get; set; }
 
-        public int SponserID { get; set; }
-        public int EventID { get; set; }
-        public int OrganizersID { get; set; }
-        public int VisitorID { get; set; }
+        public virtual ITTechShow? EventID { get; set; }
+        public virtual Organizers? OrganizerID { get; set; }
 
+        public virtual Sponsors? Sponsors { get; set;}
     }
 }
