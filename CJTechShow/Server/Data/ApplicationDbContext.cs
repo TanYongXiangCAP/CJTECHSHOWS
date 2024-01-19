@@ -1,4 +1,6 @@
-﻿using CJTechShow.Server.Models;
+﻿using CJTechShow.Client.Pages;
+using CJTechShow.Server.Models;
+using CJTechShow.Shared.Domain;
 using Duende.IdentityServer.EntityFramework.Options;
 using Microsoft.AspNetCore.ApiAuthorization.IdentityServer;
 using Microsoft.EntityFrameworkCore;
@@ -13,5 +15,12 @@ namespace CJTechShow.Server.Data
             IOptions<OperationalStoreOptions> operationalStoreOptions) : base(options, operationalStoreOptions)
         {
         }
+
+        public DbSet<Visitor> Visitors { get; set; }
+        public DbSet<Vendors> Vendors { get; set; }
+        public DbSet<Organizers> Organizers { get; set; }
+        public DbSet<ITTechShows> ITTechShows { get; set; }
+        public DbSet<Sponsors> Sponsors { get; set; }
+
     }
 }
