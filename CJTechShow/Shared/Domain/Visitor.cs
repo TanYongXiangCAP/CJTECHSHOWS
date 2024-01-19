@@ -11,10 +11,10 @@ namespace CJTechShow.Shared.Domain
     public class Visitor
     { 
         public int VisitorID { get; set; }
+
         public string? VisitorName { get; set; }
         public string? VisitorContactNumber { get; set; }
         public string? VisitorEmail { get; set; }
         public string? VisitorCompany { get; set; }
     }
-
 }
