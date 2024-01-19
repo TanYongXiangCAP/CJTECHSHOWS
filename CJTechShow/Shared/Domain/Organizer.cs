@@ -9,19 +9,19 @@ using System.Threading.Tasks;
 
 namespace CJTechShow.Shared.Domain
 {
-    public class Organizers :BaseDomainModel
+    public class Organizer :BaseDomainModel
     {
         public int OrganizerID { get; set; }
-
-
         public string? OrganizerName { get; set; }
         public string? OrganizerContactNumber { get; set; }
         public string? OrganizerPosition { get; set; }
         public string? OrganizerEmail { get; set; }
         public string? OrganizerPassword { get; set; }
-        public virtual Vendors? VendorID {  get; set; }    
+
     }
 
-    
 }
+
+    
+
 
