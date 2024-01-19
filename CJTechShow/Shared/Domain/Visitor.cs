@@ -17,4 +17,4 @@ namespace CJTechShow.Shared.Domain
         public string? VisitorEmail { get; set; }
         public string? VisitorCompany { get; set; }
     }
-}
+}   
