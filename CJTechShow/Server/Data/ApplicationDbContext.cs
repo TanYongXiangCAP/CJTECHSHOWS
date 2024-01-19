@@ -17,10 +17,10 @@ namespace CJTechShow.Server.Data
         }
 
         public DbSet<Visitor> Visitors { get; set; }
-        public DbSet<Vendors> Vendors { get; set; }
+        public DbSet<VendorPage> Vendors { get; set; }
         public DbSet<Organizers> Organizers { get; set; }
         public DbSet<ITTechShows> ITTechShows { get; set; }
-        public DbSet<Sponsors> Sponsors { get; set; }
+        public DbSet<SponsorPage> Sponsors { get; set; }
 
     }
 }

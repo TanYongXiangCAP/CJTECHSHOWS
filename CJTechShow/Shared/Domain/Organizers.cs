@@ -18,7 +18,7 @@ namespace CJTechShow.Shared.Domain
         public string? OrganizerPosition { get; set; }
         public string? OrganizerEmail { get; set; }
         public string? OrganizerPassword { get; set; }
-        public virtual Vendors? VendorID {  get; set; }    
+# public virtual VendorPage? VendorID {  get; set; }    
     }
 
     
