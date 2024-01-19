@@ -16,9 +16,9 @@ namespace CJTechShow.Shared.Domain
         public string? Products { get; set; }
         public string? SocialMedia { get; set; }
 
-# public virtual ITTechShows? EventID { get; set; }
-# public virtual Organizers? OrganizerID { get; set; }
-
-# public virtual SponsorPage? Sponsors { get; set; }
+        public static implicit operator VendorPage(int v)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

@@ -8,14 +8,13 @@ namespace CJTechShow.Shared.Domain
 {
     public class SponsorPage : BaseDomainModel
     {
-        public int SponsorID { get; set; }
+        //public int SponsorID { get; set; }
 
         public string? SponsorName { get; set; }
 
         public string? SponsorContactInfo { get; set; }
+        public virtual Main? EventID { get; set; }
+        public virtual Organizer? OrganizerID { get; set; }
 
-# public virtual ITTechShows? EventID { get; set; }
-
-# public virtual Organizers? OrganizerID { get; set; }
     }
 }

@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Reflection.Emit;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -14,7 +13,7 @@ namespace CJTechShow.Shared.Domain
         public DateTime DateUpdated { get; set; }
         public string? CreatedBy { get; set; }
         public string? UpdatedBy { get; set; }
-        }
+
 
     }
-
+}
